@@ -1,0 +1,1 @@
+export const PRODUCTS_API = "../server/products/index.get.json";

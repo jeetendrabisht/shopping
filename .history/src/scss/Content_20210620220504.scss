@@ -1,0 +1,15 @@
+.main-content {
+    display: flex;
+    height: 85vh;
+    background-color: lightyellow;
+    margin-left: 8%;
+    margin-right: 8%;
+    .category {
+        border: 1px solid red;
+        width: 20%;
+    }
+    .main-content-display {
+        border: 1px solid green;
+        width: 80%;
+    }
+}

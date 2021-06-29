@@ -1,0 +1,65 @@
+.content-signin {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8%;
+    .right-content-signin {
+        fieldset {
+            border: none;
+        }
+        label {
+            display: block;
+            color: aqua;
+            font-size: 11px;
+            padding: 10px;
+        }
+        .fName-visible {
+            visibility: none;
+        }
+        .fName-notVisible {
+            visibility: hidden;
+        }
+        .lName-visible {
+            visibility: none;
+        }
+        .lName-notVisible {
+            visibility: hidden;
+        }
+        .email-visible {
+            visibility: none;
+        }
+        .email-notVisible {
+            visibility: hidden;
+        }
+        .pass-visible {
+            visibility: none;
+        }
+        .pass-notVisible {
+            visibility: hidden;
+        }
+        .cPass-visible {
+            visibility: none;
+        }
+        .cPass-notVisible {
+            visibility: hidden;
+        }
+        input {
+            border-width: 0 0 1px 0;
+            padding: 10px;
+            outline: none;
+            margin-bottom: 15px;
+        }
+        [placeholder]:focus::-webkit-input-placeholder {
+            transition: opacity 0.1s 0.1s ease;
+            opacity: 0;
+        }
+        button {
+            background-color: rgba(196, 37, 116, 0.863);
+            border: none;
+            color: white;
+            padding: 8px 15px;
+            font-size: 25px;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,124 @@
+.main-content-product {
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-bottom: 40px;
+    position: relative;
+    .category {
+        width: 20%;
+        background-color: rgb(233, 233, 233);
+        padding: 5px;
+        div {
+            padding: 10px;
+            border-width: 0 0 1px 0;
+            border-style: solid;
+            border-color: rgb(197, 196, 196);
+            span {
+                cursor: pointer;
+            }
+        }
+    }
+    .products-category {
+        button {
+            border: none;
+            padding: 0;
+            background: none;
+            font-size: 15px;
+            cursor: pointer;
+        }
+    }
+    .main-content-display {
+        width: 90%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 60px 0px;
+        .products-data {
+            padding: 10px;
+            h4 {
+                height: 80px;
+            }
+            img {
+                height: 200px;
+            }
+            p {
+                background-color: rgb(233, 233, 233);
+                height: 170px;
+            }
+            .price-buy-button {
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                button {
+                    background-color: rgba(196, 37, 116, 0.863);
+                    border: none;
+                    color: white;
+                    padding: 8px 15px;
+                    font-size: 25px;
+                    cursor: pointer;
+                }
+            }
+            .hr-data {
+                border: none;
+                border-bottom: 1px dashed rgb(197, 196, 196);
+            }
+        }
+    }
+    .overlay-content {
+        margin-top: 25%;
+        margin-left: 25%;
+        color: rgba(196, 37, 116, 0.863);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main-content-display {
+        grid-template-columns: auto auto;
+        .products-data {
+            h4 {
+               
+            }
+            img {
+               
+            }
+            p {
+               
+            }
+            .price-buy-button {
+
+                button {
+
+                }
+            }
+            .hr-data {
+
+            }
+        }
+    }    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    .main-content-display {
+        grid-template-columns: auto auto;
+        .products-data {
+            h4 {
+               
+            }
+            img {
+               
+            }
+            p {
+               
+            }
+            .price-buy-button {
+
+                button {
+
+                }
+            }
+            .hr-data {
+
+            }
+        }
+    }  
+}

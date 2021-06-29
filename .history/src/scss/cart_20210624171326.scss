@@ -1,0 +1,99 @@
+.content-cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(245, 245, 245);
+    width: 30%;
+    .layer-1 {
+        display: flex;
+        justify-content: space-between;
+        background: rgb(63, 62, 62);
+        padding: 15px;
+        color: white;
+        border: 2px solid rgb(43, 42, 42);
+        font-size: 20px;
+        .cart-header-close{
+            cursor: pointer;
+        }
+    }
+    .layer-2 {
+        .cartItem {
+            div {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 4%;
+                background: white;
+                padding: 10px;
+                .initial-cart-content {
+                    img {
+                        height: 90px;
+                    }
+                }
+                .mid-cart-content {
+                    display: block;
+                    margin-left: 16px;
+                    margin-right: auto;
+                    .cart-quantity {
+                        display: inline-block;
+                        .minus {
+                            border: 1px solid rgba(196, 37, 116, 0.863);
+                            background: rgba(196, 37, 116, 0.863);
+                            border-radius: 50% 50%;
+                            padding: 3px;
+                            margin-right: 10px;
+                            cursor: pointer;
+                        }
+                        .plus {
+                            border: 1px solid rgba(196, 37, 116, 0.863);
+                            background: rgba(196, 37, 116, 0.863);
+                            border-radius: 50% 50%;
+                            padding: 3px;
+                            margin-right: 10px;
+                            cursor: pointer;
+                        }
+                        .quantity {
+                            padding: 3px;
+                            margin-right: 10px;
+                        }
+                        .multiply {
+                            padding: 3px;
+                            margin-right: 10px;
+                        }
+                        .price {
+                            padding: 3px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+                .last-cart-content {
+                    align-items: center;
+                }
+            }
+        }
+        .below-cartItems-tag {
+            background: white;
+            margin: 30px;
+        }
+    }
+    .layer-3 {
+        background: white;
+        border: 1px solid rgb(201, 176, 176);
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0 10px 0 rgb(230, 204, 204);
+        align-items: center;
+        p {
+            font-weight: bold;
+        }
+        button {
+            background: rgba(196, 37, 116, 0.863);
+            border: none;
+            cursor: pointer;
+            padding: 12px;
+            width: 96%;
+            color: white;
+            font-size: 20px;
+        }
+        }
+    }
+}

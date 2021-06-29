@@ -1,0 +1,20 @@
+.main-content-home {
+    margin-left: 8%;
+    margin-right: 8%;
+    .content-carousal {
+        .awssld {
+            --slider-height-percentage: 25%;
+            --content-background-color: #ffffff00;
+        }
+    }
+    .home-display {
+        margin-top: 10%;
+        .home-category {
+            .content-category-secondSide {
+                img {
+                    width: 25%;
+                }
+            }
+        }
+    }
+}

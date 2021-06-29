@@ -1,0 +1,14 @@
+.content-register {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8%;
+    .right-content-register {
+        fieldset {
+            border: none;
+        }
+        legend {
+            display: none;
+        }
+    }
+}

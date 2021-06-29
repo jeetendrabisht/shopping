@@ -1,0 +1,39 @@
+.content-cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(245, 245, 245);
+    width: 30%;
+    .layer-1 {
+        display: flex;
+        justify-content: space-between;
+        background: rgb(63, 62, 62);
+        padding: 15px;
+        color: white;
+        border: 2px solid rgb(43, 42, 42);
+        font-size: 20px;
+    }
+    .layer-2 {
+        .cartItem {
+            div {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 4%;
+                background: white;
+                .initial-cart-content {
+                    img {
+                        height: 90px;
+                    }
+                }
+                .mid-cart-content {
+                }
+                .last-cart-content {
+                }
+            }
+        }
+        .below-cartItems-tag {
+        }
+    }
+    .layer-3 {
+    }
+}

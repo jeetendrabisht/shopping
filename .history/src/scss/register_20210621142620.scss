@@ -1,0 +1,21 @@
+.content-register {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8%;
+    .right-content-register {
+        fieldset {
+            border: none;
+        }
+        label {
+            display: block;
+        }
+        input {
+            border-width: 0 0 1px 0;
+        }
+        [placeholder]:focus::-webkit-input-placeholder {
+            transition: opacity 0.5s 0.5s ease; 
+            opacity: 0;
+          }
+    }
+}

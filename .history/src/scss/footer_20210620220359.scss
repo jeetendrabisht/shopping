@@ -1,0 +1,22 @@
+.main-footer {
+    background-color: rgb(233, 233, 233);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    .content-footer{
+        p {
+            padding: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main-footer {
+        .content-footer{
+            p {
+                font-size: 11px;
+                padding: 4px;            
+            }
+        }
+    }
+}

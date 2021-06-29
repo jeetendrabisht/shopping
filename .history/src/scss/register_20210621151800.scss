@@ -1,0 +1,41 @@
+.content-register {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8%;
+    .right-content-register {
+        fieldset {
+            border: none;
+        }
+        label {
+            display: block;
+            color:aqua;
+        }
+        .fName-visible {
+            visibility: none;
+        }
+        .fName-notVisible {
+            visibility: hidden;
+        }
+        .lName-visible {
+            visibility: none;
+        }
+        .email-visible {
+            visibility: none;
+        }
+        .pass-visible {
+            visibility: none;
+        }
+        .cPass-visible {
+            visibility: none;
+        }
+        input {
+            border-width: 0 0 1px 0;
+            width:100%;
+        }
+        [placeholder]:focus::-webkit-input-placeholder {
+            transition: opacity 0.1s 0.1s ease; 
+            opacity: 0;
+          }  
+    }
+}

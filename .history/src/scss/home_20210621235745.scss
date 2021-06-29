@@ -1,0 +1,38 @@
+.main-content-home {
+    margin-left: 8%;
+    margin-right: 8%;
+    .content-carousal {
+        .awssld {
+            --slider-height-percentage: 25%;
+            --content-background-color: #ffffff00;
+        }
+    }
+    .home-display {
+        margin-top: 10%;
+        .home-category {
+            display: flex;
+            border: solid rgb(233, 233, 233);
+            border-width: 1px 0 0 0;
+            box-shadow: 0 0 10px 0 rgb(197, 196, 196);
+            .content-category-secondSide {
+                img {
+                    width: 25%;
+                }
+            }
+            .content-category-oneSide {
+                p {
+                    background-color: rgb(233, 233, 233);
+                    height: 170px;
+                }
+                button {
+                    background-color: rgba(196, 37, 116, 0.863);
+                    border: none;
+                    color: white;
+                    padding: 8px 15px;
+                    font-size: 25px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

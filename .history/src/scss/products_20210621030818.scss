@@ -1,0 +1,17 @@
+.main-content-product {
+    display: flex;
+    height: 85vh;
+    background-color: lightyellow;
+    margin-left: 8%;
+    margin-right: 8%;
+    .category {
+        border: 1px solid red;
+        width: 25%;
+    }
+    .main-content-display {
+        border: 1px solid green;
+        width: 75%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}

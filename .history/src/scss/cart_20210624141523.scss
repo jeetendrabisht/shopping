@@ -1,0 +1,19 @@
+.content-cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    .layer-1 {
+        display: flex;
+        justify-content: space-between;
+        background: rgb(37, 37, 37);
+        padding: 15px;
+        color: white;
+    }
+    .layer-2 {
+
+    }
+    .layer-3 {
+
+    }
+}

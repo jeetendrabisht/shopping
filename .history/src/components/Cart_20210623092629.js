@@ -1,0 +1,33 @@
+import React from 'react';
+
+class Cart extends React.PureComponent {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            cartQuantity: 0,
+            cartTotal: 0,
+        }
+    }
+
+    render() {
+        return <div>
+            <div>
+                <div><h3>My Cart &#40;{this.state.cartQuantity} item&#41;</h3></div>
+                <div>&#10540;</div>
+            </div>
+            <div>
+            <img src={"../../static/images/lowest-price.png"} alt="lowest_price_image" />
+            </div>
+            <div>
+                <p>Promo code can be applied on payment page</p>
+                <button type="button">
+                    <span>Proceed to Checkout</span>
+                    <span>Rs.{this.state.cartTotal} &#62;</span>
+                    </button>
+            </div>
+        </div>
+    }
+}
+
+export default Cart;

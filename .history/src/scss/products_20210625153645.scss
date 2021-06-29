@@ -1,0 +1,177 @@
+.main-content-product {
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-bottom: 40px;
+    position: relative;
+    .category {
+        width: 20%;
+        background-color: rgb(233, 233, 233);
+        padding: 5px;
+        div {
+            padding: 10px;
+            border-width: 0 0 1px 0;
+            border-style: solid;
+            border-color: rgb(197, 196, 196);
+            span {
+                cursor: pointer;
+            }
+        }
+    }
+    .products-category {
+        button {
+            border: none;
+            padding: 0;
+            background: none;
+            font-size: 15px;
+            cursor: pointer;
+        }
+    }
+    .main-content-display {
+        width: 90%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 60px 0px;
+        .products-data {
+            padding: 10px;
+            h4 {
+                height: 80px;
+            }
+            img {
+                height: 200px;
+            }
+            p {
+                background-color: rgb(233, 233, 233);
+                height: 170px;
+            }
+            .price-buy-button {
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                button {
+                    background-color: rgba(196, 37, 116, 0.863);
+                    border: none;
+                    color: white;
+                    padding: 8px 15px;
+                    font-size: 25px;
+                    cursor: pointer;
+                }
+            }
+            .hr-data {
+                border: none;
+                border-bottom: 1px dashed rgb(197, 196, 196);
+            }
+        }
+    }
+    .overlay-content {
+        margin-top: 25%;
+        margin-left: 25%;
+        color: rgba(196, 37, 116, 0.863);
+    }
+}
+
+.main-content-product-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    select {
+        background: rgba(196, 37, 116, 0.863);
+        color: white;
+        border: none;
+        margin-top: 10px;
+        width: 100%;
+        padding: 15px;
+        outline: none;
+        box-shadow: 0 0 15px 0 rgba(196, 37, 116, 0.863);
+    }
+    .main-content-display-mobile {
+        .products-data {
+            margin-top: 15px;
+            .item-content {
+                display: flex;
+                align-items: center;
+                center {
+                    img {
+                        width: 200px;
+                        height: 200px;
+                    }
+                }
+                .item-desc {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    p {
+                        background: rgb(233, 233, 233);
+                        margin: 10px;
+                        font-size: 12px;
+                    }
+                    .price-buy-button {
+                        button {
+                            background-color: rgba(196, 37, 116, 0.863);
+                            border: none;
+                            color: white;
+                            padding: 8px 15px;
+                            font-size: 15px;
+                            cursor: pointer;
+                        }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .main-content-product {
+        .main-content-display {
+            .products-data {
+                padding: 3px;
+                p {
+                    height: 220px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .main-content-product {
+        .category {
+            width: 30%;
+        }
+        .main-content-display {
+            grid-template-columns: auto auto auto;
+            .products-data {
+                p {
+                    height: 225px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .main-content-product {
+        .category {
+            width: 30%;
+        }
+        .products-category {
+            button {
+                font-size: 12px;
+            }
+        }
+        .main-content-display {
+            grid-template-columns: auto auto;
+            .products-data {
+                p {
+                    height: 200px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

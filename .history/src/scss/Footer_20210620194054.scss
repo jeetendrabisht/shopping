@@ -1,0 +1,14 @@
+.main-footer {
+    background-color: rgb(233, 233, 233);
+    .content-footer{
+        p {
+            padding: 10px;
+        }
+    }
+}
+
+@media screen and (min-width: 500px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
